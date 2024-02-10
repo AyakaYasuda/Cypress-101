@@ -1,0 +1,12 @@
+- Cypress runs headless by 'npx cypress run --browser chrome'
+(Add --spec "**.js" to specify the spec file)
+
+- Cypress supports CSS selectors only
+
+- cy.wrap() method allows you to resolve promise e.g.$el
+
+- Cypress is asynchronous in nature and there is no guarantee in sequence of execution, but Cypress takes care of it.
+
+- Cypress also supports Jquery methods as well as Cypress methods
+
+- Cypress commands can't resolve promise by themselves. We need to manually resolve it by using then()
